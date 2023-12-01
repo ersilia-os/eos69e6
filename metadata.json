@@ -1,9 +1,12 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos69e6",
+    "Slug": "pgmg",
+    "Status": "In progress",
+    "Title": "Pharmacophore-guided molecular generation",
+    "Description": [
+        "Based on a molecule's pharmacophore",
+        "this model generates new molecules de-novo to match the pharmacophore. A graph neural network encode spatially distributed chemical features and a transformer decoder generates molecules"
+    ],
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +15,8 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": "Compound generation",
+    "Publication": "https://www.nature.com/articles/s41467-023-41454-9",
+    "Source Code": "https://github.com/CSUBioGroup/PGMG",
+    "License": "GPLv3"
 }
