@@ -3,9 +3,7 @@
     "Slug": "pgmg-pharmacophore-generative",
     "Status": "In progress",
     "Title": "Pharmacophore-guided molecular generation",
-    "Description": [
-        "Based on a molecule's pharmacophore, this model generates new molecules de-novo to match the pharmacophore. Internally, pharmacophore hypotheses are generated for a given ligand. A graph neural network encodes spatially distributed chemical features and a transformer decoder generates molecules."
-    ],
+    "Description": "Based on a molecule's pharmacophore, this model generates new molecules de-novo to match the pharmacophore. Internally, pharmacophore hypotheses are generated for a given ligand. A graph neural network encodes spatially distributed chemical features and a transformer decoder generates molecules.",
     "Mode": "Pretrained",
     "Task": ["Generative"],
     "Input": ["Compound"],
