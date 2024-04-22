@@ -12,7 +12,7 @@
     "Output Type": ["String"],
     "Output Shape": "List",
     "Interpretation": "Model generates new molecules from input molecule by first creating pharmacophore hypotheses and then constraining generation.",
-    "Tag": "Compound generation",
+    "Tag": ["Compound generation"],
     "Publication": "https://www.nature.com/articles/s41467-023-41454-9",
     "Source Code": "https://github.com/CSUBioGroup/PGMG",
     "License": "GPLv3"
