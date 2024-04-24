@@ -25,6 +25,7 @@ Based on a molecule's pharmacophore, this model generates new molecules de-novo 
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos69e6)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos69e6.zip)
 
 ## Citation
 
