@@ -1,6 +1,7 @@
 FROM bentoml/model-server:0.11.0-py38
 MAINTAINER ersilia
 
+RUN conda install libgcc
 RUN python -m pip install torch==1.12.1+cpu torchvision==0.13.1+cpu torchaudio==0.12.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 RUN python -m pip install fairseq==0.10.2
 RUN python -m pip install einops==0.6.0
