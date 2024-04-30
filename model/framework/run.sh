@@ -1,3 +1,8 @@
+if [ -f /usr/bin/conda/envs/eos69e6 ]; then
+    export LD_LIBRARY_PATH=/usr/bin/conda/envs/eos69e6/lib:$LD_LIBRARY_PATH
+else
+    export LD_LIBRARY_PATH=/eos69e6/lib:$LD_LIBRARY_PATH
+fi
 num_samples=10
 cwd=$(realpath "$1")
 input_file=$(realpath "$2")
