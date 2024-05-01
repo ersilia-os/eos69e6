@@ -1,6 +1,6 @@
 echo "=================================================================="
 
-if [ -f /usr/bin/conda/envs/eos69e6 ]; then
+if [ -d /usr/bin/conda/envs/eos69e6 ]; then
     ENV_PATH=/usr/bin/conda/envs/eos69e6
     export LD_LIBRARY_PATH=$ENV_PATH/lib:$LD_LIBRARY_PATH
 else
