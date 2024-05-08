@@ -9,7 +9,6 @@ RUN python -m pip install tqdm==4.66.2
 RUN python -m pip install rdkit==2022.09.1
 RUN python -m pip install pandas==2.0.3
 RUN conda install -y -c dglteam dgl=0.9.1
-RUN python -m pip install numpy==1.19.5
 
 WORKDIR /repo
 COPY . /repo
