@@ -27,5 +27,9 @@
     "Publication": "https://www.nature.com/articles/s41467-023-41454-9",
     "Source Code": "https://github.com/CSUBioGroup/PGMG",
     "License": "MIT",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos69e6.zip"
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos69e6.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos69e6",
+    "Docker Architecture": [
+        "AMD64"
+    ]
 }
