@@ -35,7 +35,7 @@ for i in range(len(smiles_list)):
     gen_smiles = gen_smiles[:MAX_SMILES]
     R += [gen_smiles]
 
-header = ["smi_{0}".format(str(i).zfill(6)) for i in range(MAX_SMILES)]
+header = ["smiles_{0}".format(str(i).zfill(4)) for i in range(MAX_SMILES)]
 with open(output_file, "w") as f:
     writer = csv.writer(f)
     writer.writerow(header)
