@@ -10,6 +10,7 @@ n_samplings = int(sys.argv[2])
 output_file = sys.argv[3]
 
 TMP_FOLDER = os.path.join(root, "..", "tmp")
+os.mkdir(TMP_FOLDER)
 
 MAX_SMILES = 10000
 
