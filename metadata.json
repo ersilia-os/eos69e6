@@ -20,9 +20,6 @@
     "Output": [
         "Compound"
     ],
-    "Output Type": [
-        "Compound"
-    ],
     "Output Dimension": 100,
     "Output Consistency": "Variable",
     "Interpretation": "New molecules generated based on the pharmacophore",
