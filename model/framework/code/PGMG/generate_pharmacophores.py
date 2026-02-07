@@ -1,38 +1,61 @@
 import sys
 import os
-import shutil
 import csv
+import shutil
+from pathlib import Path
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = Path(__file__).resolve().parent
+
 
 from utils.smiles2ppgraph import smiles2ppgraph
 from utils.file_utils import export_ep_text
 
 
-file_path = sys.argv[1]
-n_samplings = int(sys.argv[2])
-
-
-TMP_FOLDER = os.path.join(ROOT, "..", "..", "tmp")
-if os.path.exists(TMP_FOLDER):
-    shutil.rmtree(TMP_FOLDER)
-os.makedirs(TMP_FOLDER)
-
-
-with open(file_path, "r") as f:
-    reader = csv.reader(f)
-    next(reader)
+def read_smiles_csv(file_path):
+    file_path = Path(file_path)
     smiles_list = []
-    for r in reader:
-        smiles_list += [r[0]]
+    with file_path.open("r", newline="") as f:
+        reader = csv.reader(f)
+        next(reader, None)
+        for r in reader:
+            if not r:
+                continue
+            s = (r[0] or "").strip()
+            if s:
+                smiles_list.append(s)
+    return smiles_list
 
 
-counts = 0
-for i, smiles in enumerate(smiles_list):
-    for j in range(n_samplings):
-        g, _ = smiles2ppgraph(smiles)
-        file_path = os.path.join(TMP_FOLDER, "pharm_{0}.edgep".format(counts))
-        text = export_ep_text(g)
-        with open(file_path, "w") as f:
-            f.write(text)
-        counts += 1
+def write_pharmacophore_edgep_files(smiles_list, n_samplings, out_dir, prefix="pharm_"):
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    created = []
+    counts = 0
+    for smiles in smiles_list:
+        for _ in range(int(n_samplings)):
+            g, _ = smiles2ppgraph(smiles)
+            fp = out_dir / "{0}{1}.edgep".format(prefix, counts)
+            text = export_ep_text(g)
+            with fp.open("w") as f:
+                f.write(text)
+            created.append(fp)
+            counts += 1
+    return created
+
+
+def main():
+    file_path = sys.argv[1]
+    n_samplings = int(sys.argv[2])
+
+    tmp_folder = (ROOT / ".." / ".." / "tmp").resolve()
+    if tmp_folder.exists():
+        shutil.rmtree(tmp_folder)
+    tmp_folder.mkdir(parents=True, exist_ok=True)
+
+    smiles_list = read_smiles_csv(file_path)
+    write_pharmacophore_edgep_files(smiles_list, n_samplings, tmp_folder)
+
+
+if __name__ == "__main__":
+    main()

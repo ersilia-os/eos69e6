@@ -44,6 +44,37 @@ def format_smiles(smiles):
 
     return smiles
 
+def generate_smiles_from_pharmacophore_file(
+    file_path: Path,
+    model,
+    tokenizer,
+    n_mol: int = 10000,
+    device: str = "cpu",
+    do_filter: bool = False,
+    batch_size: int = 512,
+):
+    from tqdm.auto import tqdm
+    import dgl
+
+    from utils.file_utils import load_phar_file
+
+    g = load_phar_file(file_path)
+
+    g_batch = [g] * batch_size
+    g_batch = dgl.batch(g_batch).to(device)
+    n_epoch = (n_mol + batch_size - 1) // batch_size
+
+    res: list[str] = []
+    for _ in tqdm(range(n_epoch)):
+        res.extend(tokenizer.get_text(model.generate(g_batch)))
+    res = res[:n_mol]
+
+    if do_filter:
+        res = [format_smiles(i) for i in res]
+        res = [i for i in res if i]
+        res = list(set(res))
+
+    return res
 
 if __name__ == '__main__':
 
