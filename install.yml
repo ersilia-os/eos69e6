@@ -1,6 +1,6 @@
 python: "3.8"
 commands:
-  - ['conda', 'install', '-c', 'conda-forge', ' libstdcxx-ng==15.1.0', '-y']
+  - ['conda', ' libstdcxx-ng', '15.1.0', 'conda-forge', '-y']
   - ["pip", "torch", "1.12.1", "--extra-index-url", "https://download.pytorch.org/whl/cpu"]
   - ["pip", "torchvision", "0.13.1", "--extra-index-url", "https://download.pytorch.org/whl/cpu"]
   - ["pip", "torchaudio", "0.12.1", "--extra-index-url", "https://download.pytorch.org/whl/cpu"]
@@ -9,5 +9,5 @@ commands:
   - ["pip", "tqdm", "4.66.2"]
   - ["pip", "rdkit", "2022.09.1"]
   - ["pip", "pandas", "2.0.3"]
-  - ['conda', 'install', '-y', '-c', 'dglteam', ' dgl=0.9.1']
-  - ['conda', 'install', '-y', '-c', 'conda-forge', ' numpy==1.19.5']
+  - ['conda', 'dgl', '0.9.1', 'dglteam', '-y']
+  - ['conda', 'numpy', '1.19.5', 'conda-forge', '-y']
