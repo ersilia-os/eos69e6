@@ -1,10 +1,10 @@
 # Pharmacophore-guided molecular generation
 
-Based on a molecule's pharmacophore, this model generates new molecules de-novo to match the pharmacophore.
+Based on a molecules pharmacophore, this model generates new molecules de-novo to match the pharmacophore.
 Internally, pharmacophore hypotheses are generated for a given ligand.
 A graph neural network encodes spatially distributed chemical features and a transformer decoder generates molecules.
 
-This model was incorporated on 2025-07-15.
+This model was incorporated on 2023-12-01.
 
 
 ## Information
