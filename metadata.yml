@@ -1,38 +1,37 @@
-identifier: eos69e6
-slug: pgmg-pharmacophore
-status: In progress
-title: Pharmacophore-guided molecular generation
-description: |
-  Based on a molecule's pharmacophore, this model generates new molecules de-novo
-  to match the pharmacophore. Internally, pharmacophore hypotheses are generated
-  for a given ligand. A graph neural network encodes spatially distributed
-  chemical features and a transformer decoder generates molecules.
-deployment:
+Identifier: eos69e6
+Slug: pgmg-pharmacophore
+Status: In progress
+Title: Pharmacophore-guided molecular generation
+Description: >-
+  Based on a molecule's pharmacophore, this model generates new molecules de-novo to match the pharmacophore.
+  Internally, pharmacophore hypotheses are generated for a given ligand.
+  A graph neural network encodes spatially distributed chemical features and a transformer decoder generates molecules.
+Deployment:
   - Local
-source: Local
-source_type: External
-task:
+Source: Local
+Source Type: External
+Task:
   - Sampling
-subtask: Generation
-input:
+Subtask: Generation
+Input:
   - Compound
-input_dimension: 1
-output:
+Input Dimension: 1
+Output:
   - Compound
-output_dimension: 100
-output_consistency: Variable
-interpretation: New molecules generated based on the pharmacophore
-tag:
+Output Dimension: 100
+Output Consistency: Variable
+Interpretation: New molecules generated based on the pharmacophore
+Tag:
   - Chemical graph model
   - Compound generation
-publication_type: Peer reviewed
-publication_year: 2023
-publication: https://www.nature.com/articles/s41467-023-41454-9
-source_code: https://github.com/CSUBioGroup/PGMG
-biomedical_area:
+Publication Type: Peer reviewed
+Publication Year: 2023
+Publication: https://www.nature.com/articles/s41467-023-41454-9
+Source Code: https://github.com/CSUBioGroup/PGMG
+Biomedical Area:
   - Any
-target_organism:
+Target Organism:
   - Any
-license: MIT
-contributor: miquelduranfrigola
-incorporation_date: "2025-07-15"
+License: MIT
+Contributor: miquelduranfrigola
+Incorporation Date: "2025-07-15"
