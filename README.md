@@ -57,7 +57,7 @@ _10 of 1000 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/CSUBioGroup/PGMG](https://github.com/CSUBioGroup/PGMG)
-- **Publication**: [https://www.nature.com/articles/s41467-023-41454-9](https://www.nature.com/articles/s41467-023-41454-9)
+- **Publication**: [https://doi.org/10.1038/s41467-023-41454-9](https://doi.org/10.1038/s41467-023-41454-9)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2023`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
