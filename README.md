@@ -24,7 +24,7 @@ This model was incorporated on 2023-12-01.
 - **Input Dimension:** `1`
 
 ### Output
-- **Output Dimension:** `100`
+- **Output Dimension:** `1000`
 - **Output Consistency:** `Variable`
 - **Interpretation:** New molecules generated based on the pharmacophore
 
