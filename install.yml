@@ -11,6 +11,5 @@ commands:
   - ["pip", "rdkit", "2022.09.1"]
   - ["pip", "pandas", "2.0.3"]
   - ['conda', 'dgl', '0.9.1', 'dglteam', '-y']
-  - ["conda remove charset-normalizer -y"]
-  - ['conda', 'charset-normalizer', "3.4.0", "conda-forge", "-y"]
-  - ['conda', 'numpy', '1.19.5', 'conda-forge', '-y']
+  - ["pip", "charset-normalizer", "3.4.0"]  
+  - ["pip", "numpy", "1.19.5"] 
