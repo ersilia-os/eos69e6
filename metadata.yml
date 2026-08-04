@@ -1,6 +1,6 @@
 Identifier: eos69e6
 Slug: pgmg-pharmacophore
-Status: In progress
+Status: Ready
 Title: Pharmacophore-guided molecular generation
 Description: "Based on a molecules pharmacophore, this model generates new molecules
   de-novo to match the pharmacophore.\nInternally, pharmacophore hypotheses are generated
@@ -34,6 +34,16 @@ Source Code: https://github.com/CSUBioGroup/PGMG
 License: MIT
 Contributor: miquelduranfrigola
 Incorporation Date: '2023-12-01'
+Last Packaging Date: '2026-08-04'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos69e6.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos69e6
+Docker Architecture: AMD64
 Model Size: 598.0
 Environment Size: 1610.0
+Image Size: 2212.74
+Computational Performance 1: 272.89
+Computational Performance 2: -1.0
+Computational Performance 3: -1.0
+Computational Performance 4: -1.0
+Computational Performance 5: -1.0
