@@ -1,6 +1,6 @@
 python: "3.8"
 commands:
- - ['conda', 'libstdcxx-ng', '15.1.0', 'conda-forge', '-y']
+  - ['conda', 'libstdcxx-ng', '15.1.0', 'conda-forge', '-y']
   - ["pip", "torch", "1.12.1", "--extra-index-url", "https://download.pytorch.org/whl/cpu"]
   - ["pip", "torchvision", "0.13.1", "--extra-index-url", "https://download.pytorch.org/whl/cpu"]
   - ["pip", "torchaudio", "0.12.1", "--extra-index-url", "https://download.pytorch.org/whl/cpu"]
