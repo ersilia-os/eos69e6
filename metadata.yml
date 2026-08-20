@@ -2,10 +2,7 @@ Identifier: eos69e6
 Slug: pgmg-pharmacophore
 Status: Ready
 Title: Pharmacophore-guided molecular generation
-Description: "Based on a molecules pharmacophore, this model generates new molecules
-  de-novo to match the pharmacophore.\nInternally, pharmacophore hypotheses are generated
-  for a given ligand.\nA graph neural network encodes spatially distributed chemical
-  features and a transformer decoder generates molecules."
+Description: "Generates up to 1,000 molecules matching a specified pharmacophore, so that design is steered by the spatial arrangement of interacting groups rather than by resemblance to a seed compound. Zhu and colleagues coupled a pharmacophore encoder with a generative decoder, allowing a hypothesis derived from a binding site to drive construction directly. Generation is stochastic, and satisfying a pharmacophore constrains geometry without ensuring the result is synthesisable or active."
 Deployment:
   - Local
 Source: Local
@@ -19,7 +16,7 @@ Output:
   - Compound
 Output Dimension: 1000
 Output Consistency: Variable
-Interpretation: New molecules generated based on the pharmacophore
+Interpretation: Up to 1000 generated molecules matching the supplied pharmacophore arrangement.
 Tag:
   - Chemical graph model
   - Compound generation
@@ -31,7 +28,7 @@ Publication Type: Peer reviewed
 Publication Year: 2023
 Publication: https://doi.org/10.1038/s41467-023-41454-9
 Source Code: https://github.com/CSUBioGroup/PGMG
-License: MIT
+License: CC-BY-NC-SA-4.0
 Contributor: miquelduranfrigola
 Incorporation Date: '2023-12-01'
 Last Packaging Date: '2026-08-04'

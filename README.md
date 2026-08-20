@@ -1,8 +1,6 @@
 # Pharmacophore-guided molecular generation
 
-Based on a molecules pharmacophore, this model generates new molecules de-novo to match the pharmacophore.
-Internally, pharmacophore hypotheses are generated for a given ligand.
-A graph neural network encodes spatially distributed chemical features and a transformer decoder generates molecules.
+Generates up to 1,000 molecules matching a specified pharmacophore, so that design is steered by the spatial arrangement of interacting groups rather than by resemblance to a seed compound. Zhu and colleagues coupled a pharmacophore encoder with a generative decoder, allowing a hypothesis derived from a binding site to drive construction directly. Generation is stochastic, and satisfying a pharmacophore constrains geometry without ensuring the result is synthesisable or active.
 
 This model was incorporated on 2023-12-01.Last packaged on 2026-08-04.
 
@@ -25,7 +23,7 @@ This model was incorporated on 2023-12-01.Last packaged on 2026-08-04.
 ### Output
 - **Output Dimension:** `1000`
 - **Output Consistency:** `Variable`
-- **Interpretation:** New molecules generated based on the pharmacophore
+- **Interpretation:** Up to 1000 generated molecules matching the supplied pharmacophore arrangement.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
@@ -67,7 +65,7 @@ _10 of 1000 columns are shown_
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
 ### License
-This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [MIT](LICENSE) license.
+This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [CC-BY-NC-SA-4.0](LICENSE) license.
 
 **Notice**: Ersilia grants access to models _as is_, directly from the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 
