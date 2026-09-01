@@ -40,7 +40,7 @@ def main():
     model.eval()
     model.to(DEFAULT_DEVICE)
 
-    header = [f"smiles_{str(i).zfill(4)}" for i in range(MAX_SMILES)]
+    header = [f"smi_{str(i).zfill(3)}" for i in range(MAX_SMILES)]
 
     rows: list[list[str]] = []
 
