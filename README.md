@@ -30,16 +30,16 @@ This model was incorporated on 2023-12-01.Last packaged on 2026-08-04.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| smiles_0000 | string |  | Generated molecule index 0 using the pharmacophore-guided molecular generation (PGMG) model |
-| smiles_0001 | string |  | Generated molecule index 1 using the pharmacophore-guided molecular generation (PGMG) model |
-| smiles_0002 | string |  | Generated molecule index 2 using the pharmacophore-guided molecular generation (PGMG) model |
-| smiles_0003 | string |  | Generated molecule index 3 using the pharmacophore-guided molecular generation (PGMG) model |
-| smiles_0004 | string |  | Generated molecule index 4 using the pharmacophore-guided molecular generation (PGMG) model |
-| smiles_0005 | string |  | Generated molecule index 5 using the pharmacophore-guided molecular generation (PGMG) model |
-| smiles_0006 | string |  | Generated molecule index 6 using the pharmacophore-guided molecular generation (PGMG) model |
-| smiles_0007 | string |  | Generated molecule index 7 using the pharmacophore-guided molecular generation (PGMG) model |
-| smiles_0008 | string |  | Generated molecule index 8 using the pharmacophore-guided molecular generation (PGMG) model |
-| smiles_0009 | string |  | Generated molecule index 9 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_000 | string |  | Generated molecule index 0 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_001 | string |  | Generated molecule index 1 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_002 | string |  | Generated molecule index 2 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_003 | string |  | Generated molecule index 3 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_004 | string |  | Generated molecule index 4 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_005 | string |  | Generated molecule index 5 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_006 | string |  | Generated molecule index 6 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_007 | string |  | Generated molecule index 7 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_008 | string |  | Generated molecule index 8 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_009 | string |  | Generated molecule index 9 using the pharmacophore-guided molecular generation (PGMG) model |
 
 _10 of 1000 columns are shown_
 ### Source and Deployment
