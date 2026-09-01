@@ -35,7 +35,7 @@ License: CC-BY-NC-SA-4.0
 Contributor: miquelduranfrigola
 Incorporation Date: '2023-12-01'
 Last Packaging Date: '2026-09-01'
-Release: v1.0.0
+Release: v2.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos69e6.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos69e6
 Docker Architecture: AMD64
