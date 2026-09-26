@@ -1,5 +1,4 @@
 import csv
-import os
 import random
 import sys
 import tempfile
@@ -12,12 +11,9 @@ DEFAULT_FILTER = True
 DEFAULT_BATCH_SIZE = 512
 MAX_SMILES = 1000
 
-root = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.join(root, "SQUID"))
-
 def main():
     if len(sys.argv) < 3:
-        print("Usage: python assemble_results.py <input.csv> <output.csv>")
+        print("Usage: python main.py <input.csv> <output.csv>")
         sys.exit(1)
 
     input_csv = Path(sys.argv[1]).resolve()
