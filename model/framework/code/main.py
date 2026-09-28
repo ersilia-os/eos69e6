@@ -21,14 +21,15 @@ def main():
 
     code_root = Path(__file__).resolve().parent
     pgmg_root = (code_root / "PGMG").resolve()
+    checkpoints_root = (code_root / ".." / ".." / "checkpoints").resolve()
 
     sys.path.insert(0, str(pgmg_root))
 
     from generate_pharmacophores import read_smiles_csv, write_pharmacophore_edgep_files
     from generate import load_model, generate_smiles_from_pharmacophore_file
 
-    model_path = pgmg_root / "weights" / "chembl_fold0_epoch32.pth"
-    tokenizer_path = pgmg_root / "weights" / "tokenizer.pkl"
+    model_path = checkpoints_root / "chembl_fold0_epoch32.pth"
+    tokenizer_path = checkpoints_root / "tokenizer.pkl"
 
     smiles_list = read_smiles_csv(input_csv)
 
