@@ -4,12 +4,20 @@ import sys
 import tempfile
 from pathlib import Path
 
+from rdkit import Chem
+
 DEFAULT_N_SAMPLINGS = 10
-DEFAULT_N_MOL_PER_PHARM = 500
+DEFAULT_N_MOL_PER_PHARM = 50
 DEFAULT_DEVICE = "cpu"
 DEFAULT_FILTER = True
 DEFAULT_BATCH_SIZE = 512
-MAX_SMILES = 1000
+MAX_SMILES = 100
+
+def stereo_blind(smiles):
+    """Canonical SMILES ignoring stereochemistry, or None if it does not parse."""
+    mol = Chem.MolFromSmiles(smiles)
+    return Chem.MolToSmiles(mol, isomericSmiles=False) if mol else None
+
 
 def main():
     if len(sys.argv) < 3:
@@ -37,7 +45,7 @@ def main():
     model.eval()
     model.to(DEFAULT_DEVICE)
 
-    header = [f"smi_{str(i).zfill(3)}" for i in range(MAX_SMILES)]
+    header = [f"smi_{str(i).zfill(2)}" for i in range(MAX_SMILES)]
 
     rows: list[list[str]] = []
 
@@ -70,7 +78,9 @@ def main():
                 )
                 gen_set.update(gen_smiles)
 
-            gen_list = list(gen_set)
+            # the input itself is never a valid output
+            input_flat = stereo_blind(_smiles)
+            gen_list = [s for s in gen_set if stereo_blind(s) != input_flat]
             random.shuffle(gen_list)
             gen_list = gen_list[:MAX_SMILES]
 
