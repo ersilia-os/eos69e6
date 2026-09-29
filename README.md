@@ -4,7 +4,7 @@ Based on a molecules pharmacophore, this model generates new molecules de-novo t
 Internally, pharmacophore hypotheses are generated for a given ligand.
 A graph neural network encodes spatially distributed chemical features and a transformer decoder generates molecules.
 
-This model was incorporated on 2023-12-01.Last packaged on 2026-09-28.
+This model was incorporated on 2023-12-01.Last packaged on 2026-09-29.
 
 ## Information
 ### Identifiers
@@ -52,10 +52,10 @@ _10 of 100 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `597`
 - **Environment Size (Mb):** `1611`
-- **Image Size (Mb):** `2213.14`
+- **Image Size (Mb):** `2212.9`
 
 **Computational Performance (seconds):**
-- 10 inputs: `366.79`
+- 10 inputs: `216.92`
 - 100 inputs: `-1`
 - 10000 inputs: `-1`
 
