@@ -1,8 +1,6 @@
 # Pharmacophore-guided molecular generation
 
-Based on a molecules pharmacophore, this model generates new molecules de-novo to match the pharmacophore.
-Internally, pharmacophore hypotheses are generated for a given ligand.
-A graph neural network encodes spatially distributed chemical features and a transformer decoder generates molecules.
+Derives pharmacophore hypotheses from an input ligand and builds up to 100 new molecules that satisfy them, so design is steered by the spatial arrangement of interacting groups rather than by resemblance to the seed compound. Zhu and colleagues encoded the pharmacophore with a graph neural network and emitted molecules through a transformer decoder, training on over 1.25 million ChEMBL compounds. Sampling is stochastic and was assessed only by docking, and the original code is released for non-commercial use.
 
 This model was incorporated on 2023-12-01.Last packaged on 2026-09-29.
 
@@ -25,7 +23,7 @@ This model was incorporated on 2023-12-01.Last packaged on 2026-09-29.
 ### Output
 - **Output Dimension:** `100`
 - **Output Consistency:** `Variable`
-- **Interpretation:** New molecules generated based on the pharmacophore
+- **Interpretation:** Up to 100 new molecules built to match a pharmacophore hypothesis derived from the input compound.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
