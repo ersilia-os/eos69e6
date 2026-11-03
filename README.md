@@ -3,7 +3,7 @@
 Derives pharmacophore hypotheses from an input compound and samples up to 100 new molecules conditioned on them. A graph neural network encodes the pharmacophore features and their bond-path distances, and a transformer decoder emits SMILES; trained on over 1.25 million ChEMBL compounds (Zhu et al.). Outputs carry no stereochemistry, and empty, unparsable, multi-component or featureless inputs return empty rows. Sampling is stochastic; the input, its stereoisomers, multi-component structures and repeats are removed. The original code is for non-commercial use.
 
 This model was incorporated on 2023-12-01.
-Last packaged on 2026-09-29.
+Last packaged on 2026-11-03.
 
 ## Information
 ### Identifiers
@@ -51,10 +51,10 @@ _10 of 100 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `597`
 - **Environment Size (Mb):** `1611`
-- **Image Size (Mb):** `2212.9`
+- **Image Size (Mb):** `2212.94`
 
 **Computational Performance (seconds):**
-- 10 inputs: `216.92`
+- 10 inputs: `57.27`
 - 100 inputs: `-1`
 - 10000 inputs: `-1`
 
