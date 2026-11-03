@@ -1,8 +1,9 @@
 # Pharmacophore-guided molecular generation
 
-Derives pharmacophore hypotheses from an input ligand and builds up to 100 new molecules that satisfy them, so design is steered by the spatial arrangement of interacting groups rather than by resemblance to the seed compound. Zhu and colleagues encoded the pharmacophore with a graph neural network and emitted molecules through a transformer decoder, training on over 1.25 million ChEMBL compounds. Sampling is stochastic and was assessed only by docking, and the original code is released for non-commercial use.
+Derives pharmacophore hypotheses from an input compound and samples up to 100 new molecules conditioned on them. A graph neural network encodes the pharmacophore features and their bond-path distances, and a transformer decoder emits SMILES; trained on over 1.25 million ChEMBL compounds (Zhu et al.). Outputs carry no stereochemistry, and empty, unparsable, multi-component or featureless inputs return empty rows. Sampling is stochastic; the input, its stereoisomers, multi-component structures and repeats are removed. The original code is for non-commercial use.
 
-This model was incorporated on 2023-12-01.Last packaged on 2026-09-29.
+This model was incorporated on 2023-12-01.
+Last packaged on 2026-09-29.
 
 ## Information
 ### Identifiers
@@ -23,21 +24,21 @@ This model was incorporated on 2023-12-01.Last packaged on 2026-09-29.
 ### Output
 - **Output Dimension:** `100`
 - **Output Consistency:** `Variable`
-- **Interpretation:** Up to 100 new molecules built to match a pharmacophore hypothesis derived from the input compound.
+- **Interpretation:** Up to 100 new molecules generated from a pharmacophore hypothesis derived from the input compound.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| smi_00 | string |  | Generated molecule index 0 using the pharmacophore-guided molecular generation (PGMG) model |
-| smi_01 | string |  | Generated molecule index 1 using the pharmacophore-guided molecular generation (PGMG) model |
-| smi_02 | string |  | Generated molecule index 2 using the pharmacophore-guided molecular generation (PGMG) model |
-| smi_03 | string |  | Generated molecule index 3 using the pharmacophore-guided molecular generation (PGMG) model |
-| smi_04 | string |  | Generated molecule index 4 using the pharmacophore-guided molecular generation (PGMG) model |
-| smi_05 | string |  | Generated molecule index 5 using the pharmacophore-guided molecular generation (PGMG) model |
-| smi_06 | string |  | Generated molecule index 6 using the pharmacophore-guided molecular generation (PGMG) model |
-| smi_07 | string |  | Generated molecule index 7 using the pharmacophore-guided molecular generation (PGMG) model |
-| smi_08 | string |  | Generated molecule index 8 using the pharmacophore-guided molecular generation (PGMG) model |
-| smi_09 | string |  | Generated molecule index 9 using the pharmacophore-guided molecular generation (PGMG) model |
+| smi_00 | string |  | Generated molecule index 0 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found) |
+| smi_01 | string |  | Generated molecule index 1 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found) |
+| smi_02 | string |  | Generated molecule index 2 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found) |
+| smi_03 | string |  | Generated molecule index 3 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found) |
+| smi_04 | string |  | Generated molecule index 4 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found) |
+| smi_05 | string |  | Generated molecule index 5 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found) |
+| smi_06 | string |  | Generated molecule index 6 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found) |
+| smi_07 | string |  | Generated molecule index 7 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found) |
+| smi_08 | string |  | Generated molecule index 8 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found) |
+| smi_09 | string |  | Generated molecule index 9 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found) |
 
 _10 of 100 columns are shown_
 ### Source and Deployment
