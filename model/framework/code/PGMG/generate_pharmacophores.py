@@ -12,17 +12,18 @@ from utils.file_utils import export_ep_text
 
 
 def read_smiles_csv(file_path):
+    """Read the SMILES column of a CSV with a header, one entry per input line.
+
+    A blank line gives an empty string (not a dropped entry), so the output rows
+    stay aligned with the input rows.
+    """
     file_path = Path(file_path)
     smiles_list = []
     with file_path.open("r", newline="") as f:
         reader = csv.reader(f)
         next(reader, None)
         for r in reader:
-            if not r:
-                continue
-            s = (r[0] or "").strip()
-            if s:
-                smiles_list.append(s)
+            smiles_list.append((r[0] if r else "").strip())
     return smiles_list
 
 

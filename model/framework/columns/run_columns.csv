@@ -1,101 +1,101 @@
 name,type,direction,description
-smi_00,string,,Generated molecule index 0 using the pharmacophore-guided molecular generation (PGMG) model
-smi_01,string,,Generated molecule index 1 using the pharmacophore-guided molecular generation (PGMG) model
-smi_02,string,,Generated molecule index 2 using the pharmacophore-guided molecular generation (PGMG) model
-smi_03,string,,Generated molecule index 3 using the pharmacophore-guided molecular generation (PGMG) model
-smi_04,string,,Generated molecule index 4 using the pharmacophore-guided molecular generation (PGMG) model
-smi_05,string,,Generated molecule index 5 using the pharmacophore-guided molecular generation (PGMG) model
-smi_06,string,,Generated molecule index 6 using the pharmacophore-guided molecular generation (PGMG) model
-smi_07,string,,Generated molecule index 7 using the pharmacophore-guided molecular generation (PGMG) model
-smi_08,string,,Generated molecule index 8 using the pharmacophore-guided molecular generation (PGMG) model
-smi_09,string,,Generated molecule index 9 using the pharmacophore-guided molecular generation (PGMG) model
-smi_10,string,,Generated molecule index 10 using the pharmacophore-guided molecular generation (PGMG) model
-smi_11,string,,Generated molecule index 11 using the pharmacophore-guided molecular generation (PGMG) model
-smi_12,string,,Generated molecule index 12 using the pharmacophore-guided molecular generation (PGMG) model
-smi_13,string,,Generated molecule index 13 using the pharmacophore-guided molecular generation (PGMG) model
-smi_14,string,,Generated molecule index 14 using the pharmacophore-guided molecular generation (PGMG) model
-smi_15,string,,Generated molecule index 15 using the pharmacophore-guided molecular generation (PGMG) model
-smi_16,string,,Generated molecule index 16 using the pharmacophore-guided molecular generation (PGMG) model
-smi_17,string,,Generated molecule index 17 using the pharmacophore-guided molecular generation (PGMG) model
-smi_18,string,,Generated molecule index 18 using the pharmacophore-guided molecular generation (PGMG) model
-smi_19,string,,Generated molecule index 19 using the pharmacophore-guided molecular generation (PGMG) model
-smi_20,string,,Generated molecule index 20 using the pharmacophore-guided molecular generation (PGMG) model
-smi_21,string,,Generated molecule index 21 using the pharmacophore-guided molecular generation (PGMG) model
-smi_22,string,,Generated molecule index 22 using the pharmacophore-guided molecular generation (PGMG) model
-smi_23,string,,Generated molecule index 23 using the pharmacophore-guided molecular generation (PGMG) model
-smi_24,string,,Generated molecule index 24 using the pharmacophore-guided molecular generation (PGMG) model
-smi_25,string,,Generated molecule index 25 using the pharmacophore-guided molecular generation (PGMG) model
-smi_26,string,,Generated molecule index 26 using the pharmacophore-guided molecular generation (PGMG) model
-smi_27,string,,Generated molecule index 27 using the pharmacophore-guided molecular generation (PGMG) model
-smi_28,string,,Generated molecule index 28 using the pharmacophore-guided molecular generation (PGMG) model
-smi_29,string,,Generated molecule index 29 using the pharmacophore-guided molecular generation (PGMG) model
-smi_30,string,,Generated molecule index 30 using the pharmacophore-guided molecular generation (PGMG) model
-smi_31,string,,Generated molecule index 31 using the pharmacophore-guided molecular generation (PGMG) model
-smi_32,string,,Generated molecule index 32 using the pharmacophore-guided molecular generation (PGMG) model
-smi_33,string,,Generated molecule index 33 using the pharmacophore-guided molecular generation (PGMG) model
-smi_34,string,,Generated molecule index 34 using the pharmacophore-guided molecular generation (PGMG) model
-smi_35,string,,Generated molecule index 35 using the pharmacophore-guided molecular generation (PGMG) model
-smi_36,string,,Generated molecule index 36 using the pharmacophore-guided molecular generation (PGMG) model
-smi_37,string,,Generated molecule index 37 using the pharmacophore-guided molecular generation (PGMG) model
-smi_38,string,,Generated molecule index 38 using the pharmacophore-guided molecular generation (PGMG) model
-smi_39,string,,Generated molecule index 39 using the pharmacophore-guided molecular generation (PGMG) model
-smi_40,string,,Generated molecule index 40 using the pharmacophore-guided molecular generation (PGMG) model
-smi_41,string,,Generated molecule index 41 using the pharmacophore-guided molecular generation (PGMG) model
-smi_42,string,,Generated molecule index 42 using the pharmacophore-guided molecular generation (PGMG) model
-smi_43,string,,Generated molecule index 43 using the pharmacophore-guided molecular generation (PGMG) model
-smi_44,string,,Generated molecule index 44 using the pharmacophore-guided molecular generation (PGMG) model
-smi_45,string,,Generated molecule index 45 using the pharmacophore-guided molecular generation (PGMG) model
-smi_46,string,,Generated molecule index 46 using the pharmacophore-guided molecular generation (PGMG) model
-smi_47,string,,Generated molecule index 47 using the pharmacophore-guided molecular generation (PGMG) model
-smi_48,string,,Generated molecule index 48 using the pharmacophore-guided molecular generation (PGMG) model
-smi_49,string,,Generated molecule index 49 using the pharmacophore-guided molecular generation (PGMG) model
-smi_50,string,,Generated molecule index 50 using the pharmacophore-guided molecular generation (PGMG) model
-smi_51,string,,Generated molecule index 51 using the pharmacophore-guided molecular generation (PGMG) model
-smi_52,string,,Generated molecule index 52 using the pharmacophore-guided molecular generation (PGMG) model
-smi_53,string,,Generated molecule index 53 using the pharmacophore-guided molecular generation (PGMG) model
-smi_54,string,,Generated molecule index 54 using the pharmacophore-guided molecular generation (PGMG) model
-smi_55,string,,Generated molecule index 55 using the pharmacophore-guided molecular generation (PGMG) model
-smi_56,string,,Generated molecule index 56 using the pharmacophore-guided molecular generation (PGMG) model
-smi_57,string,,Generated molecule index 57 using the pharmacophore-guided molecular generation (PGMG) model
-smi_58,string,,Generated molecule index 58 using the pharmacophore-guided molecular generation (PGMG) model
-smi_59,string,,Generated molecule index 59 using the pharmacophore-guided molecular generation (PGMG) model
-smi_60,string,,Generated molecule index 60 using the pharmacophore-guided molecular generation (PGMG) model
-smi_61,string,,Generated molecule index 61 using the pharmacophore-guided molecular generation (PGMG) model
-smi_62,string,,Generated molecule index 62 using the pharmacophore-guided molecular generation (PGMG) model
-smi_63,string,,Generated molecule index 63 using the pharmacophore-guided molecular generation (PGMG) model
-smi_64,string,,Generated molecule index 64 using the pharmacophore-guided molecular generation (PGMG) model
-smi_65,string,,Generated molecule index 65 using the pharmacophore-guided molecular generation (PGMG) model
-smi_66,string,,Generated molecule index 66 using the pharmacophore-guided molecular generation (PGMG) model
-smi_67,string,,Generated molecule index 67 using the pharmacophore-guided molecular generation (PGMG) model
-smi_68,string,,Generated molecule index 68 using the pharmacophore-guided molecular generation (PGMG) model
-smi_69,string,,Generated molecule index 69 using the pharmacophore-guided molecular generation (PGMG) model
-smi_70,string,,Generated molecule index 70 using the pharmacophore-guided molecular generation (PGMG) model
-smi_71,string,,Generated molecule index 71 using the pharmacophore-guided molecular generation (PGMG) model
-smi_72,string,,Generated molecule index 72 using the pharmacophore-guided molecular generation (PGMG) model
-smi_73,string,,Generated molecule index 73 using the pharmacophore-guided molecular generation (PGMG) model
-smi_74,string,,Generated molecule index 74 using the pharmacophore-guided molecular generation (PGMG) model
-smi_75,string,,Generated molecule index 75 using the pharmacophore-guided molecular generation (PGMG) model
-smi_76,string,,Generated molecule index 76 using the pharmacophore-guided molecular generation (PGMG) model
-smi_77,string,,Generated molecule index 77 using the pharmacophore-guided molecular generation (PGMG) model
-smi_78,string,,Generated molecule index 78 using the pharmacophore-guided molecular generation (PGMG) model
-smi_79,string,,Generated molecule index 79 using the pharmacophore-guided molecular generation (PGMG) model
-smi_80,string,,Generated molecule index 80 using the pharmacophore-guided molecular generation (PGMG) model
-smi_81,string,,Generated molecule index 81 using the pharmacophore-guided molecular generation (PGMG) model
-smi_82,string,,Generated molecule index 82 using the pharmacophore-guided molecular generation (PGMG) model
-smi_83,string,,Generated molecule index 83 using the pharmacophore-guided molecular generation (PGMG) model
-smi_84,string,,Generated molecule index 84 using the pharmacophore-guided molecular generation (PGMG) model
-smi_85,string,,Generated molecule index 85 using the pharmacophore-guided molecular generation (PGMG) model
-smi_86,string,,Generated molecule index 86 using the pharmacophore-guided molecular generation (PGMG) model
-smi_87,string,,Generated molecule index 87 using the pharmacophore-guided molecular generation (PGMG) model
-smi_88,string,,Generated molecule index 88 using the pharmacophore-guided molecular generation (PGMG) model
-smi_89,string,,Generated molecule index 89 using the pharmacophore-guided molecular generation (PGMG) model
-smi_90,string,,Generated molecule index 90 using the pharmacophore-guided molecular generation (PGMG) model
-smi_91,string,,Generated molecule index 91 using the pharmacophore-guided molecular generation (PGMG) model
-smi_92,string,,Generated molecule index 92 using the pharmacophore-guided molecular generation (PGMG) model
-smi_93,string,,Generated molecule index 93 using the pharmacophore-guided molecular generation (PGMG) model
-smi_94,string,,Generated molecule index 94 using the pharmacophore-guided molecular generation (PGMG) model
-smi_95,string,,Generated molecule index 95 using the pharmacophore-guided molecular generation (PGMG) model
-smi_96,string,,Generated molecule index 96 using the pharmacophore-guided molecular generation (PGMG) model
-smi_97,string,,Generated molecule index 97 using the pharmacophore-guided molecular generation (PGMG) model
-smi_98,string,,Generated molecule index 98 using the pharmacophore-guided molecular generation (PGMG) model
-smi_99,string,,Generated molecule index 99 using the pharmacophore-guided molecular generation (PGMG) model
+smi_00,string,,Generated molecule index 0 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_01,string,,Generated molecule index 1 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_02,string,,Generated molecule index 2 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_03,string,,Generated molecule index 3 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_04,string,,Generated molecule index 4 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_05,string,,Generated molecule index 5 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_06,string,,Generated molecule index 6 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_07,string,,Generated molecule index 7 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_08,string,,Generated molecule index 8 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_09,string,,Generated molecule index 9 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_10,string,,Generated molecule index 10 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_11,string,,Generated molecule index 11 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_12,string,,Generated molecule index 12 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_13,string,,Generated molecule index 13 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_14,string,,Generated molecule index 14 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_15,string,,Generated molecule index 15 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_16,string,,Generated molecule index 16 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_17,string,,Generated molecule index 17 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_18,string,,Generated molecule index 18 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_19,string,,Generated molecule index 19 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_20,string,,Generated molecule index 20 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_21,string,,Generated molecule index 21 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_22,string,,Generated molecule index 22 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_23,string,,Generated molecule index 23 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_24,string,,Generated molecule index 24 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_25,string,,Generated molecule index 25 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_26,string,,Generated molecule index 26 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_27,string,,Generated molecule index 27 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_28,string,,Generated molecule index 28 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_29,string,,Generated molecule index 29 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_30,string,,Generated molecule index 30 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_31,string,,Generated molecule index 31 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_32,string,,Generated molecule index 32 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_33,string,,Generated molecule index 33 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_34,string,,Generated molecule index 34 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_35,string,,Generated molecule index 35 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_36,string,,Generated molecule index 36 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_37,string,,Generated molecule index 37 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_38,string,,Generated molecule index 38 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_39,string,,Generated molecule index 39 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_40,string,,Generated molecule index 40 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_41,string,,Generated molecule index 41 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_42,string,,Generated molecule index 42 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_43,string,,Generated molecule index 43 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_44,string,,Generated molecule index 44 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_45,string,,Generated molecule index 45 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_46,string,,Generated molecule index 46 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_47,string,,Generated molecule index 47 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_48,string,,Generated molecule index 48 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_49,string,,Generated molecule index 49 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_50,string,,Generated molecule index 50 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_51,string,,Generated molecule index 51 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_52,string,,Generated molecule index 52 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_53,string,,Generated molecule index 53 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_54,string,,Generated molecule index 54 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_55,string,,Generated molecule index 55 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_56,string,,Generated molecule index 56 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_57,string,,Generated molecule index 57 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_58,string,,Generated molecule index 58 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_59,string,,Generated molecule index 59 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_60,string,,Generated molecule index 60 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_61,string,,Generated molecule index 61 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_62,string,,Generated molecule index 62 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_63,string,,Generated molecule index 63 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_64,string,,Generated molecule index 64 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_65,string,,Generated molecule index 65 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_66,string,,Generated molecule index 66 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_67,string,,Generated molecule index 67 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_68,string,,Generated molecule index 68 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_69,string,,Generated molecule index 69 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_70,string,,Generated molecule index 70 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_71,string,,Generated molecule index 71 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_72,string,,Generated molecule index 72 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_73,string,,Generated molecule index 73 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_74,string,,Generated molecule index 74 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_75,string,,Generated molecule index 75 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_76,string,,Generated molecule index 76 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_77,string,,Generated molecule index 77 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_78,string,,Generated molecule index 78 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_79,string,,Generated molecule index 79 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_80,string,,Generated molecule index 80 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_81,string,,Generated molecule index 81 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_82,string,,Generated molecule index 82 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_83,string,,Generated molecule index 83 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_84,string,,Generated molecule index 84 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_85,string,,Generated molecule index 85 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_86,string,,Generated molecule index 86 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_87,string,,Generated molecule index 87 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_88,string,,Generated molecule index 88 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_89,string,,Generated molecule index 89 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_90,string,,Generated molecule index 90 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_91,string,,Generated molecule index 91 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_92,string,,Generated molecule index 92 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_93,string,,Generated molecule index 93 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_94,string,,Generated molecule index 94 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_95,string,,Generated molecule index 95 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_96,string,,Generated molecule index 96 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_97,string,,Generated molecule index 97 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_98,string,,Generated molecule index 98 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)
+smi_99,string,,Generated molecule index 99 conditioned on a pharmacophore hypothesis derived from the input (empty if fewer than 100 were found)

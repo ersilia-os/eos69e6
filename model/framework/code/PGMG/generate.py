@@ -31,7 +31,8 @@ def load_model(model_path, tokenizer_path):
 
     model = PGMG(model_params, tokenizer)
     states = torch.load(model_path, map_location='cpu')
-    print(model.load_state_dict(states['model'], strict=False))
+    # strict: a checkpoint that does not match the architecture must stop the run
+    model.load_state_dict(states['model'])
 
     return model, tokenizer
 
@@ -65,7 +66,8 @@ def generate_smiles_from_pharmacophore_file(
     n_epoch = (n_mol + batch_size - 1) // batch_size
 
     res: list[str] = []
-    for _ in tqdm(range(n_epoch)):
+    # no progress bar: it is called 10 times per input and Ersilia reports stderr as an error
+    for _ in tqdm(range(n_epoch), disable=True):
         res.extend(tokenizer.get_text(model.generate(g_batch)))
     res = res[:n_mol]
 
