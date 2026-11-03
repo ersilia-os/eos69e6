@@ -2,14 +2,14 @@ Identifier: eos69e6
 Slug: pgmg-pharmacophore
 Status: Ready
 Title: Pharmacophore-guided molecular generation
-Description: Derives pharmacophore hypotheses from an input compound and
-  samples up to 100 new molecules conditioned on them. A graph neural network
-  encodes the pharmacophore features and their bond-path distances, and a
-  transformer decoder emits SMILES; trained on over 1.25 million ChEMBL
-  compounds (Zhu et al.). Outputs carry no stereochemistry, and empty,
-  unparsable, multi-component or featureless inputs return empty rows. Sampling
-  is stochastic; the input, its stereoisomers, multi-component structures and
-  repeats are removed. The original code is for non-commercial use.
+Description: Derives pharmacophore hypotheses from an input compound and samples
+  up to 100 new molecules conditioned on them. A graph neural network encodes 
+  the pharmacophore features and their bond-path distances, and a transformer 
+  decoder emits SMILES; trained on over 1.25 million ChEMBL compounds (Zhu et 
+  al.). Outputs carry no stereochemistry, and empty, unparsable, multi-component
+  or featureless inputs return empty rows. Sampling is stochastic; the input, 
+  its stereoisomers, multi-component structures and repeats are removed. The 
+  original code is for non-commercial use.
 Deployment:
   - Local
 Source: Local
@@ -23,7 +23,7 @@ Output:
   - Compound
 Output Dimension: 100
 Output Consistency: Variable
-Interpretation: Up to 100 new molecules generated from a pharmacophore
+Interpretation: Up to 100 new molecules generated from a pharmacophore 
   hypothesis derived from the input compound.
 Tag:
   - Chemical graph model
