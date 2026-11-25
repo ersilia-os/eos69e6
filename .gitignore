@@ -79,9 +79,6 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# eosvc-managed model assets (see access.json)
-model/checkpoints/
-model/framework/fit/
 
 # IPython
 profile_default/
@@ -134,3 +131,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /data.h5
+
+#eosvc managed
+model/checkpoints/*
+model/framework/fit/*
